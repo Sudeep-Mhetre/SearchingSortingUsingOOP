@@ -55,6 +55,16 @@ public class TeamsTester {
 			else {
 				System.out.println("Team Not Found");
 			}
+			System.out.println("Enter Team Goals Made");
+			{
+				int index1 = Search.BinarySearch(fifa, 3, sc.nextInt());
+				if(index1 != -1) {
+					System.out.println(fifa[index1]);
+				}
+				else {
+					System.out.println("Team Not Found");
+				}
+			}
 			break;
 		}
 		case 4:{
