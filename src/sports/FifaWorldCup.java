@@ -1,5 +1,5 @@
 package sports;
-
+//added first
 public class FifaWorldCup {
 	private String teamName;
 	private int goalsAccepted;
